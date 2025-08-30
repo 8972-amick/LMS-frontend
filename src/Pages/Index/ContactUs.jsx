@@ -127,7 +127,7 @@ const ContactUs = () => {
               <p className="font-bold">Get in Touch</p>
               <p>You can get in touch with us on this provided email.</p>
               <p className="text-blue-400 font-medium">
-                BOOKVault2@gmail.com
+                Tales & Tea@gmail.com
               </p>
             </div>
 

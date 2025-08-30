@@ -214,7 +214,7 @@ const Bar = () => {
       <footer className="text-gray-300">
         <div className="max-w-xl mx-auto px-2">
           <div className="text-center text-sm text-black pt-2">
-            <p>© 2025 BookVault. All rights reserved.</p>
+            <p>© 2025 Tales & Tea. All rights reserved.</p>
             <div className="flex justify-center gap-4 mt-1">
               <a
                 href="#"

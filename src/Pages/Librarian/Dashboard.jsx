@@ -11,7 +11,7 @@ export default function Dashboard() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        // Fetch all books
+      
         const booksRes = await API.get("/books");
         setTotalBooks(booksRes.data.length); 
 
@@ -19,7 +19,7 @@ export default function Dashboard() {
         const available = booksRes.data.filter(book => book.available > 0).length;
         setAvailableBooks(available);
 
-        // Fetch all borrow records 
+       
         const borrowRes = await API.get("/borrow/records", {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });

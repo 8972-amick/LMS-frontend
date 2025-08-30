@@ -12,7 +12,7 @@ const AboutUs = () => {
           <div class="text-center max-w-3xl mx-auto mb-12 px-6">
             <h1 class="text-4xl font-bold text-blue-800 mb-4">About Us</h1>
             <p class="text-lg text-blue-600 leading-relaxed text-white">
-              <span class="font-semibold text-blue-700"> BOOKVault</span> was
+              <span class="font-semibold text-blue-700"> Tales & Tea</span> was
               created to make borrowing books simple for students and community
               members. It helps track books, borrowing history, and supports
               librarians in managing the catalog efficiently. This Library

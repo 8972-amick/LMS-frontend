@@ -127,7 +127,7 @@ const Home = () => {
             <p className="text-center mb-2">Rithvik singh</p>
 
             <button className="px-2 py-1 ml-10 border border-blue-400 text-blue-400 rounded hover:bg-blue-400 hover:text-white transition">
-              Burrow
+              Borrow
             </button>
           </div>
         </div>
