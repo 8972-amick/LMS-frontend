@@ -22,7 +22,7 @@ function Login() {
 
   try {
     const res = await axios.post(
-      "http://https://lms-backend-47wp.onrender.com/api/auth/login",
+      "https://lms-backend-47wp.onrender.com/api/auth/login",
       formData
     );
     toast.success("Login successful!");

@@ -33,7 +33,7 @@ const Register = () => {
     try {
       e.preventDefault();
       const response = await axios.post(
-        "http://https://lms-backend-47wp.onrender.com/api/auth/register",
+        "https://lms-backend-47wp.onrender.com/api/auth/register",
         userData
       );
       
