@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "http://https://lms-backend-47wp.onrender.com:5000/api",
 });
 
 API.interceptors.request.use((req) => {

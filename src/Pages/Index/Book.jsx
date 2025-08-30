@@ -99,7 +99,7 @@ export default function Book() {
               <div className="w-48 flex items-center justify-center">
                 {book.photo ? (
                   <img
-                    src={`http://localhost:5000${book.photo}`}
+                    src={`http://https://lms-backend-47wp.onrender.com:5000${book.photo}`}
                     alt={book.title}
                     className="w-100 h-60 p-3 object-cover"
                   />
